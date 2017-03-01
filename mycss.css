@@ -1,0 +1,105 @@
+{
+	border-style: inset;
+	border-width: 2px;
+	border-color: green;
+}
+body {
+	background-color: #efefff;
+	font-family: arial;
+	height: 2000px;
+}
+header {
+	margin-top: 10px;
+	padding: 10px;
+}
+#inp-form {
+	float: left;
+	width: 85%;
+}
+#inp-search{
+	padding-left: 1px;
+	padding-right: 1px;
+	width: 15%;
+}
+#SEARCH form {
+	margin: 19px auto;
+}
+#LOGO {
+	margin-left: 10px;
+	text-align: center;
+	background-color: #efefef;
+	border-width: 2px;
+	border-style: outset;
+	border-color: #ffefef
+}
+#AVATAR {
+	margin-right: -10px;
+	clear: right;
+}
+#AVATAR img {
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	float: left;
+}
+#AVATAR h1 {
+	float: left;
+	width: 60%;
+	margin: 0px auto 10px 10px;
+}
+#AVATAR button {
+	position: fixed;
+	right: 2%;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+#AVATAR button.n1:hover { opacity: 1.0; background-color: #037ffc; }
+#AVATAR button.n2:hover { opacity: 1.0; background-color: #037ffc; }
+#AVATAR button.n3:hover { opacity: 1.0; background-color: #037ffc; }
+#AVATAR button.n1 {	top: 5px;  }
+#AVATAR button.n2 {	top: 39px; }
+#AVATAR button.n3 {	top: 73px; }
+
+.lead {
+	text-align: justify;
+}
+hr.mystyle {
+	width: 80%;
+	height: 5px;
+	background: #037ffc;
+	border-radius: 75%;
+}
+
+.current-question {
+	margin-top: 1px;
+	padding: 1px;
+	text-transform: capitalize;
+}
+span.current-question {
+	padding-left: 30px;
+	text-align: center;
+	font-size: 28pt;
+	font-weight: bold;
+}
+a.current-question {
+	text-align: left;
+	margin-top: 10px;
+	font-size: 18pt;
+	text-decoration: underline;
+}
+
+.box-question {
+
+	font-family: cursive;
+	padding: 10px 20px;
+	margin: 15px 3px;
+	background-color: #efefff;
+	border-style: dashed;
+	border-color: darkblue;
+	box-shadow: 10px 10px #777777;
+}
+/* Как сделать, чтобы не было горизонтального скроллинга?*/
