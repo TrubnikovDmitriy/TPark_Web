@@ -7,30 +7,27 @@ body {
 	background-color: #efefff;
 	font-family: arial;
 	height: 2000px;
+
 }
 header {
+	width: 100%;
 	margin-top: 10px;
 	padding: 10px;
 }
-#inp-form {
-	float: left;
-	width: 85%;
-}
-#inp-search{
-	padding-left: 1px;
-	padding-right: 1px;
-	width: 15%;
+#LOGO img {
+	margin-top: -20px;
 }
 #SEARCH form {
-	margin: 19px auto;
+	margin: 30px 10px 35px 40px;
+	max-width: 300px;
 }
-#LOGO {
-	margin-left: 10px;
-	text-align: center;
-	background-color: #efefef;
-	border-width: 2px;
-	border-style: outset;
-	border-color: #ffefef
+#ASK input {
+	margin-top: 22px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+	width: 70%;
+	max-width: 400px;
+	box-shadow: 9px 9px 4px 0px rgba(0,0,41, 0.5);
 }
 #AVATAR {
 	margin-right: -10px;
@@ -60,9 +57,9 @@ header {
 #AVATAR button.n1:hover { opacity: 1.0; background-color: #037ffc; }
 #AVATAR button.n2:hover { opacity: 1.0; background-color: #037ffc; }
 #AVATAR button.n3:hover { opacity: 1.0; background-color: #037ffc; }
-#AVATAR button.n1 {	top: 5px;  }
-#AVATAR button.n2 {	top: 39px; }
-#AVATAR button.n3 {	top: 73px; }
+#AVATAR button.n1 {	top: 5px;  padding-left: 8px; padding-top: 6px; }
+#AVATAR button.n2 {	top: 39px; padding-left: 8px; padding-top: 6px; }
+#AVATAR button.n3 {	top: 73px; padding-left: 8px; padding-top: 6px; }
 
 .lead {
 	text-align: justify;
@@ -102,4 +99,7 @@ a.current-question {
 	border-color: darkblue;
 	box-shadow: 10px 10px #777777;
 }
-/* Как сделать, чтобы не было горизонтального скроллинга?*/
+
+#AskingAvatar {
+	margin-top: 9px;
+}
