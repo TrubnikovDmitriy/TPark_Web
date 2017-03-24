@@ -9,25 +9,32 @@
 
 <div class="nav navbar-static-top">
 	<header class="row">
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Logo~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		<div id="LOGO" class="navbar-brand col-md-1 col-md-offset-1">
 			<a href="./index.html">
 			<img src="./img/logo.png" height=110px width=110px>
 			</a>
 		</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Search~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		<div id="SEARCH" class="col-md-3"> 
 			<form class="form-search" action="#">
-				<div class="input-group">
-    				<input type="search" class="form-control" placeholder="Search..." id="inp-form">
-    				<span class="input-group-addon glyphicon glyphicon-search" id="inp-search"></span>
-  				</div>
+
+  				<div class="input-group">
+      				<input type="text" class="form-control" placeholder="Search for...">
+      				<span class="input-group-btn">
+        				<button class="btn btn-primary glyphicon glyphicon-search" type="button"></button>
+      				</span>
+    			</div>
+
 			</form>
 		</div>
-
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ask~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		<div id="ASK" class="col-md-3">
 			<input class="btn btn-primary btn-lg" type="submit" value="Ask!" id="inp-search">
 		</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Avatar~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		<div id="AVATAR" class="col-md-4">
 
@@ -35,30 +42,36 @@
 			<h1>Кузнецов Алёша</h1>
 
 			<form action="#">
-				<button type="button" class="btn btn-default btn-sm n1">
+				<button type="button" class="btn btn-default btn-sm n1" title="Выход">
 					<span class="glyphicon glyphicon-log-out"></span>
 				</button>
 			</form>
 
 			<form action="#">
-				<button type="button" class="btn btn-default btn-sm n2">
+				<button type="button" class="btn btn-default btn-sm n2" title="Настройки">
 					<span class="glyphicon glyphicon-cog"></span>
 				</button>
 			</form>
 
 			<form action="#inp-form">
-				<button type="submit" class="btn btn-default btn-sm n3">
+				<button type="submit" class="btn btn-default btn-sm n3" title="Найти">
 					<span class="glyphicon glyphicon-search"> </span>
 				</button>
 			</form>
-			<!--Как сделать, чтобы после перехода по ссылке, можно было сразу печатать-->
+
 		</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	</header>
 	</div>
 
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END_HEADER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<hr class="mystyle"><br>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BLOCK_QUESTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-	<div class="container">
+
+	<div class="container" id="question-body">
 		<div class="row">
 
 			<div class="col-md-8" id="first-block">
@@ -70,22 +83,31 @@
 				<br>
 
 				<div class="box-question row">
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 					<div class="col-md-3" id="AskingAvatar">
-						<a href="#"><img src="./img/noimage.jpg" 
-						style="-webkit-filter: hue-rotate(55deg)"
-						height=130px width=130px></a>
-						<span>Knopochki</span>
+						<a href="#">
+							<img src="./img/noimage.jpg" style="-webkit-filter: hue-rotate(55deg);" height=130px width=130px>
+						</a>
+						<div style="clear: left"></div>
+						<div class="btn-group btn-group-md Likes">
+  							<a href="#" class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
+  							<a class="btn btn disabled">5</a> 
+  							<a href="#" class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
+						</div>
 					</div>
-					<div class="lead co col-md-9">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</div>
-				</div>
 
+					<div class="lead co col-md-9">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</div>
+
+				</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 				<div class="box-question">
 					<p class="lead">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</p>
 				</div>
-	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 				<div class="box-question">
 					<p class="lead">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</p>
 				</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			</div>
 
 			<div class="col-md-3 col-md-offset-1" id="tag-block"> Pargraph #1 
@@ -95,7 +117,5 @@
 
 		</div>
 	</div>
-
-
 </body>
 </html>
