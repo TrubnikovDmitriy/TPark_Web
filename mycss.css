@@ -1,4 +1,4 @@
-{
+ {
 	border-style: inset;
 	border-width: 2px;
 	border-color: green;
@@ -6,7 +6,7 @@
 body {
 	background-color: #efefff;
 	font-family: arial;
-	height: 2000px;
+	/*height: 2000px;*/
 }
 header {
 	padding: 10px;
@@ -40,6 +40,7 @@ header {
 	float: left;
 	width: 60%;
 	margin: 10px auto;
+	max-width: 100px;
 }
 #AVATAR button {
 	position: fixed;
@@ -92,6 +93,7 @@ a.current-question {
 	margin-top: 10px;
 	font-size: 18pt;
 	text-decoration: underline;
+	font-weight: bold;
 }
 
 .box-question {
@@ -126,4 +128,50 @@ a.answer_under_question {
 }
 .tags_under_question {
 	float: right;
+}
+
+
+.tag-box {
+	position: relative;
+	float: right;
+	padding-left: 8px; padding-top: 6px;
+}
+p.tag-tittle {
+	margin-left: -50px;
+	margin-right: -50px;
+	padding-top: 20px;
+	font-size: 30pt;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+	text-shadow: 2px 2px 3px #00008b;
+	color: #337ab7;
+}
+.tag-block {
+	border-style: inset;
+	border-width: 3px;
+	border-color: #00008b;
+}
+.Tags {
+	font-size: 17pt;
+	font-weight: bold;
+	padding: 12px;
+
+}
+a.Tags:hover {
+
+	font-size: 32pt;
+	font-weight: bold;
+	padding: 5px;
+	color: #8b0000;
+}
+.popular-user {
+	font-size: 20pt;
+}
+.pagination {
+	margin-left: 40%;
+	margin-right: 40%;
+	min-width: 350px;
+	font-weight: bold;
+	font-size: 12pt;
 }
