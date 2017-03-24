@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="./mycss.css">
 </head>
 <body>
+<div id="main">
 
 <div class="nav navbar-static-top">
 	<header class="row">
@@ -38,8 +39,8 @@
 
 		<div id="AVATAR" class="col-md-4">
 
-			<img src="./img/leha.jpg" class="img-circle">
-			<h1>Кузнецов Алёша</h1>
+			<img src="./img/leha.jpg" class="img-circle img-responsive" width=100px>
+			<h1 id="UserName">Кузнецов Алёша</h1>
 
 			<form action="#">
 				<button type="button" class="btn btn-default btn-sm n1" title="Выход">
@@ -62,7 +63,7 @@
 		</div>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	</header>
-	</div>
+</div>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END_HEADER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -81,31 +82,77 @@
 				</div>
 
 				<br>
-
-				<div class="box-question row">
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<div class="box-question row">
 					<div class="col-md-3" id="AskingAvatar">
 						<a href="#">
 							<img src="./img/noimage.jpg" style="-webkit-filter: hue-rotate(55deg);" height=130px width=130px>
 						</a>
 						<div style="clear: left"></div>
-						<div class="btn-group btn-group-md Likes">
+
+						<div class="btn-group btn-group-md Likes" data-toggle="buttons">
   							<a href="#" class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
-  							<a class="btn btn disabled">5</a> 
+  							<a class="btn btn disabled">+5</a> 
   							<a href="#" class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
 						</div>
+
 					</div>
 
-					<div class="lead co col-md-9">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</div>
+					<div class="lead co col-md-9"> 
+						<h3> <a href="#"> Элементы формы? </a></h3> 
+							Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются...
+						<br> 
+						<span> <a class="answer_under_question" href="#"> <br> Посмотреть ответы (3) </a></span>
+						<span class="tags_under_question"> Tags: <a class="answer_under_question" href="#"> HTML, nGinx, CSS </a></span>
+					</div>
+				</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<div class="box-question row">
+					<div class="col-md-3" id="AskingAvatar">
+						<a href="#">
+							<img src="./img/noimage.jpg" style="-webkit-filter: hue-rotate(55deg);" height=130px width=130px>
+						</a>
+						<div style="clear: left"></div>
 
+						<div class="btn-group btn-group-md Likes" data-toggle="buttons">
+  							<a href="#" class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
+  							<a class="btn btn disabled">+1</a> 
+  							<a href="#" class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
+						</div>
+
+					</div>
+
+					<div class="lead co col-md-9"> 
+						<h3> <a href="#"> Как реализовать очередь на 6 стеках? </a></h3> 
+							Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются...
+						<br> 
+						<span> <a class="answer_under_question" href="#"> <br> Посмотреть ответы (2) </a></span>
+						<span class="tags_under_question"> Tags: <a class="answer_under_question" href="#"> очередь, С++, алгоритмы </a></span>
+					</div>
 				</div>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-				<div class="box-question">
-					<p class="lead">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</p>
-				</div>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-				<div class="box-question">
-					<p class="lead">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</p>
+				<div class="box-question row">
+					<div class="col-md-3" id="AskingAvatar">
+						<a href="#">
+							<img src="./img/noimage.jpg" style="-webkit-filter: hue-rotate(55deg);" height=130px width=130px>
+						</a>
+						<div style="clear: left"></div>
+
+						<div class="btn-group btn-group-md Likes" data-toggle="buttons">
+  							<a href="#" class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
+  							<a class="btn btn disabled">-7</a> 
+  							<a href="#" class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
+						</div>
+
+					</div>
+
+					<div class="lead co col-md-9"> 
+						<h3> <a href="#"> Как сдать курсач? </a></h3> 
+							Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются...
+						<br> 
+						<span> <a class="answer_under_question" href="#"> <br> Посмотреть ответы (5) </a></span>
+						<span class="tags_under_question"> Tags: <a class="answer_under_question" href="#"> Радиоэлектроника </a></span>
+					</div>
 				</div>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			</div>
@@ -114,8 +161,12 @@
 
 				<p class="lead">Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются упорядоченный, выровненный по левому краю текст в элементах формы.</p>
 			</div>
-
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		</div>
 	</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END_BLOCK_QUESTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+</div>
 </body>
 </html>

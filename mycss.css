@@ -7,14 +7,14 @@ body {
 	background-color: #efefff;
 	font-family: arial;
 	height: 2000px;
-	min-width: 1000px;
-	max-width: 1500px;
-	margin: 0 auto;
 }
 header {
-	width: 100%;
-	margin-top: 10px;
 	padding: 10px;
+	margin: 10px auto;
+}
+#main {
+	max-width: 1500px;
+	margin: 0px auto;
 }
 #LOGO img {
 	margin-top: -20px;
@@ -31,20 +31,15 @@ header {
 	max-width: 400px;
 	box-shadow: 9px 9px 4px 0px rgba(0,0,41, 0.5);
 }
-#AVATAR {
-	margin-right: -10px;
-	clear: right;
-}
 #AVATAR img {
-	width: 80px;
-	height: 80px;
-	margin: auto;
+	width: 100px;
+	height: 100px;
 	float: left;
 }
 #AVATAR h1 {
 	float: left;
 	width: 60%;
-	margin: 0px auto 10px 10px;
+	margin: 10px auto;
 }
 #AVATAR button {
 	position: fixed;
@@ -62,6 +57,10 @@ header {
 #AVATAR button.n1 {	top: 5px;  padding-left: 8px; padding-top: 6px; }
 #AVATAR button.n2 {	top: 39px; padding-left: 8px; padding-top: 6px; }
 #AVATAR button.n3 {	top: 73px; padding-left: 8px; padding-top: 6px; }
+
+#UserName {
+	padding-left: 10px;
+}
 
 #first-block {
 	/*min-width: 650px;*/
@@ -89,7 +88,7 @@ span.current-question {
 	font-weight: bold;
 }
 a.current-question {
-	text-align: left;
+	text-align: center;
 	margin-top: 10px;
 	font-size: 18pt;
 	text-decoration: underline;
@@ -99,7 +98,8 @@ a.current-question {
 
 	font-family: cursive;
 	padding: 10px 20px;
-	margin: 15px 3px;
+	padding-bottom: 0px;
+	margin: 18px 3px;
 	background-color: #efefff;
 	border-style: dashed;
 	border-color: darkblue;
@@ -107,14 +107,23 @@ a.current-question {
 }
 
 #AskingAvatar {
-	margin-top: 9px;
+	margin-top: 3%;
+	margin-bottom: 1%;
 }
 
 .Likes {
-	margin: 9px;
+	margin: 7px;
 	min-width: 150px;
 }
-#question-body {
+#question-body h3 {
 
-	min-width: 500px;
+	margin-top: 1%;
+}
+a.answer_under_question {
+
+	font-size: 13pt;
+	text-decoration: underline;
+}
+.tags_under_question {
+	float: right;
 }
