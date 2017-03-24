@@ -148,7 +148,7 @@ p.tag-tittle {
 	color: #337ab7;
 }
 .tag-block {
-	border-style: inset;
+	border-style: ridge;
 	border-width: 3px;
 	border-color: #00008b;
 }
