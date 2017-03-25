@@ -77,119 +77,42 @@
 		<div class="row">
 
 			<div class="col-md-8" id="first-block">
-				<div class="row">
-					<span class="col-md-6 current-question">new question</span>
-					<a class="col-md-3 col-md-offset-1 current-question" href="#">hot question</a>
-				</div>
+				<h1><b><font size="+5">New Question</font></b></h1>
 
-				<br>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-				<div class="box-question row">
-					<div class="col-md-3" id="AskingAvatar">
-						<a href="#">
-							<img src="./img/noimage.jpg" style="-webkit-filter: hue-rotate(55deg);" height=130px width=130px>
-						</a>
-						<div style="clear: left"></div>
+				<br><br>
 
-						<div class="btn-group btn-group-md Likes" data-toggle="buttons">
-  							<a class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
-  							<a class="btn btn disabled">+5</a> 
-  							<a class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
+				<form class="form-horizontal ask-form">
+
+					  	<div class="form-group">
+					    	<label class="col-md-2 control-label">Заголовок:</label>
+					    	<div class="col-md-10">
+					      		<input type="text" class="form-control input-lg" placeholder="Задайте вопрос">
+					    	</div>
+					    </div>
+
+
+					    <div class="form-group">
+					    	<label for="inputPassword" class="col-md-2 control-label">Текст:</label>
+					   		<div class="col-md-10">
+					  			<textarea class="form-control ask-text input-lg" placeholder="Опишите проблему"></textarea>
+					    	</div>
 						</div>
 
-					</div>
+						<div class="form-group">
+					    	<label class="col-md-2 control-label">Теги:</label>
+					    	<div class="col-md-10">
+					      		<input type="text" class="form-control input-lg" placeholder="Введите #хештеги">
+					    	</div>
+					    </div>
 
-					<div class="lead co col-md-9"> 
-						<h3> <a href="#"> Элементы формы? </a></h3> 
-							Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются...
-						<br> 
-						<span> 
-							<a style="font-size: 14pt" href="#"> 
-								<br> 
-								Посмотреть ответы
-								<span class="badge">3</span> 
-							</a>
-						</span>
-						<span class="tags_under_question"> Теги: 
-						<a class="answer_under_question" href="#"> HTML </a>,
-						<a class="answer_under_question" href="#"> nGinx</a>,
-						<a class="answer_under_question" href="#"> CSS </a>
-						</span>
-					</div>
+				</form>
+
+				<div id="ASK" class="col-md-4">
+					<a href="./ask_error.html"><input class="btn btn-success btn-lg" type="submit" value="Спросить!"></a>
 				</div>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-				<div class="box-question row">
-					<div class="col-md-3" id="AskingAvatar">
-						<a href="#">
-							<img src="./img/noimage.jpg" style="-webkit-filter: hue-rotate(55deg);" height=130px width=130px>
-						</a>
-						<div style="clear: left"></div>
 
-						<div class="btn-group btn-group-md Likes" data-toggle="buttons">
-  							<a class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
-  							<a class="btn btn disabled">+1</a> 
-  							<a class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
-						</div>
-
-					</div>
-
-					<div class="lead co col-md-9"> 
-						<h3> <a href="#"> Как реализовать очередь на 6 стеках? </a></h3> 
-							Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются...
-						<br> 
-
-						<span> 
-							<a style="font-size: 14pt" href="#"> 
-								<br> 
-								Посмотреть ответы
-								<span class="badge">5</span> 
-							</a>
-						</span>
-
-						<span class="tags_under_question"> Теги: 
-						<a class="answer_under_question" href="#">очередь</a>,
-						<a class="answer_under_question" href="#">С++</a>,
-						<a class="answer_under_question" href="#">алгоритмы</a>
-						</span>
-					</div>
-				</div>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-				<div class="box-question row">
-					<div class="col-md-3" id="AskingAvatar">
-						<a href="#">
-							<img src="./img/noimage.jpg" style="-webkit-filter: hue-rotate(55deg);" height=130px width=130px>
-						</a>
-						<div style="clear: left"></div>
-
-						<div class="btn-group btn-group-md Likes" data-toggle="buttons">
-  							<a class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
-  							<a class="btn btn disabled">-7</a> 
-  							<a class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
-						</div>
-
-					</div>
-
-					<div class="lead co col-md-9"> 
-						<h3> <a href="#"> Как сдать курсач? </a></h3> 
-							Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются...
-						<br> 
-
-						<span> 
-							<a style="font-size: 14pt" href="#"> 
-								<br> 
-								Посмотреть ответы
-								<span class="badge">11</span> 
-							</a>
-						</span>
-
-						<span class="tags_under_question"> Теги: <a class="answer_under_question" href="#"> Радиоэлектроника </a></span>
-					</div>
-				</div>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			</div>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END_BLOCK_QUESTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TEG_BLOCK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 
@@ -206,11 +129,11 @@
 						<span><a class="Tags" href="#">Java		</a></span><br>
 						<span><a class="Tags" href="https://park.mail.ru/feed/" target="_blank">ТехноПарк	</a></span>
 						<span><a class="Tags" href="#">Си		</a></span>
-						<span><a class="Tags" href="https://webvpn.bmstu.ru/" target="_blank">	МГТУ		</a></span>
+						<span><a class="Tags" href="https://webvpn.bmstu.ru/" target="_blank">МГТУ</a></span>
 						<span><a class="Tags" href="#">Αpache	</a></span>
 						<span><a class="Tags" href="#">РЛ		</a></span>
 						<span><a class="Tags" href="#">Алгоритмы</a></span><br>
-						<span><a class="Tags" href="http://bootstrap-ru.com/203/base_css.php" target="_blank">Bootstrap</a></span>
+						<span><a class="Tags" href="http://bootstrap-ru.com/203/components.php" target="_blank">Bootstrap</a></span>
 						<span><a class="Tags" href="https://vk.com/feed" target="_blank">		vk			</a></span> 
 					</div>
 				</div>
@@ -239,20 +162,6 @@
 	</div>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PAGINATION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-	<br><br>
-	<div class="center-block" id="page">
-		<ul class="pagination pagination-md">
-  			<li class="disabled"><span>«</span></li>
-	  		<li class="active"><a href="#page">1</a></li>
-		  	<li><a href="#page">2</a></li>
-		  	<li><a href="#page">3</a></li>
-  			<li><a href="#page">4</a></li>
-			<li><a href="#page">5</a></li>
-			<li><a>...</a></li>
-			<li><a href="#page">12</a></li>
-  			<li><a href="#">»</a></li>
-		</ul>
-	</div>
 
 </div>
 </body>
