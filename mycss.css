@@ -71,7 +71,7 @@ header {
 	text-align: justify;
 }
 hr.mystyle {
-	width: 80%;
+	width: 90%;
 	height: 5px;
 	background: #037ffc;
 	border-radius: 75%;
@@ -90,7 +90,7 @@ span.current-question {
 }
 a.current-question {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 13px;
 	font-size: 18pt;
 	text-decoration: underline;
 	font-weight: bold;
@@ -112,6 +112,11 @@ a.current-question {
 	margin-top: 3%;
 	margin-bottom: 1%;
 }
+#AskingAvatar img {
+	height: 130px;
+	width: 130px;
+	-webkit-filter: hue-rotate(55deg);
+}
 
 .Likes {
 	margin: 7px;
@@ -129,8 +134,6 @@ a.answer_under_question {
 .tags_under_question {
 	float: right;
 }
-
-
 .tag-box {
 	position: relative;
 	float: right;
@@ -183,6 +186,48 @@ a.Tags:hover {
 	max-height: 400px;
 }
 .ask-form {
-	margin-left: -10%;
+	margin-left: -7%;
 	font-size: 15pt;
+}
+.tag-search {
+	margin-left: 20px;
+	font-family: cursive;
+}
+.single-question {
+
+	font-family: cursive;
+
+	background-color: #efefff;
+}
+.box-answer {
+
+	font-family: cursive;
+	padding: 10px 20px;
+	padding-bottom: 0px;
+	margin: 30px 40px 30px 0px;
+	background-color: #efefff;
+	border-style: inset;
+	border-width: 1px;
+	border-color: darkblue;
+	box-shadow: 7px 7px #777777;
+}
+.tags_under_single_question {
+	float: left;
+}
+
+#AnsweringAvatar img {
+	height: 170px;
+	width: 170px;
+	-webkit-filter: hue-rotate(55deg);
+	margin-top: 15px;
+}
+.Answer-Likes {
+	margin: 8px 26px;
+	min-width: 150px;
+}
+.helpful-check {
+
+	margin-left: 15px;
+	font-weight: 18pt;
+	flex: 0 0 auto;
 }
