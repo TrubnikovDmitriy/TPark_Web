@@ -44,11 +44,11 @@
 				<img src="./img/noavatar.png" class="img-circle img-responsive" width=100px>
 				<h1 id="UserName">Трубников Дмитрий</h1>
 
-				<form action="#">
+				<a href="./login.html">
 					<button type="button" class="btn btn-default btn-sm n1" title="Выход">
 						<span class="glyphicon glyphicon-log-out"></span>
 					</button>
-				</form>
+				</a>
 
 				<form action="#">
 					<button type="button" class="btn btn-default btn-sm n2" title="Настройки">
@@ -113,6 +113,34 @@
 					</div>
 
 					<hr class="mystyle">
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+					<h2><b><i>Ответы:</i></b></h2>
+					<div class="box-answer row">
+						<div class="col-md-3" id="AskingAvatar">
+							<a href="#">
+								<img src="./img/noimage.jpg">
+							</a>
+							<div style="clear: left"></div>
+
+							<div class="btn-group btn-group-md Likes" data-toggle="buttons">
+	  							<a class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
+	  							<a class="btn btn disabled">+2</a> 
+	  							<a class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
+							</div>
+
+						</div>
+						<br> 
+						
+						<div class="lead co col-md-9"> 
+								Переход к декартовым координатам из сферических осуществляется явно не по этой формуле:  Ψ(ρ,Θ,β)=ρ*sin(θ) + ρ*cos(β)
+							<br><br>
+						</div>
+
+						<div class="helpful-check"> 
+							<label>Пометить ответ как верный!  <input type="checkbox" name="helpful"></label>
+						</div>
+
+					</div>
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 					<div class="box-answer row">
 						<div class="col-md-3" id="AskingAvatar">
@@ -123,39 +151,34 @@
 
 							<div class="btn-group btn-group-md Likes" data-toggle="buttons">
 	  							<a class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
-	  							<a class="btn btn disabled">+1</a> 
+	  							<a class="btn btn disabled">+9</a> 
 	  							<a class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
 							</div>
 
 						</div>
 						<br> 
-						<div class="lead co col-md-9"> 
-								Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. В результате получаются...
-							<br> 
-						</div>
-					</div>
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-					<div class="box-answer row">
-						<div class="col-md-3" id="AskingAvatar">
-							<a href="#">
-								<img src="./img/noimage.jpg">
-							</a>
-							<div style="clear: left"></div>
 
-							<div class="btn-group btn-group-md Likes" data-toggle="buttons">
-	  							<a class="btn btn-danger glyphicon glyphicon-thumbs-down"></a>
-	  							<a class="btn btn disabled">-7</a> 
-	  							<a class="btn btn-success glyphicon glyphicon-thumbs-up"></a>
-							</div>
-
-						</div>
-						<br> 
 						<div class="lead co col-md-9"> 
-								Переход к декартовым координатам из сферических осуществляется явно не по этой формуле: Ψ(ρ,Θ,β)=ρ*sin(θ) + ρ*cos(β)
-							<br> 
+								Отдельные <i>элементы</i> формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке. Без особых изменений в разметке.
+								Отдельные формы имеют свой стиль, но без обязательного класса или каких-либо особых изменений в разметке.
+								Много текста, чтобы убедиться, что чекбокс будет располагаться в правильном месте при любой длине сообщения.
+							<br><br>	
 						</div>
-						<span class="helpful-check"><input type="checkbox" name="helpful" class="helpful-check"> Пометить как правильный </span>
+
+						<div class="helpful-check"> 
+							<label>Пометить ответ как верный!  <input type="checkbox" name="helpful"></label>
+						</div>
+
 					</div>
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Own message~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+					<br><hr class="mystyle"><br>
+
+					<textarea class="form-control answer-txt input-lg" placeholder="Введите текст ответа"></textarea>
+					<div class="col-md-4 col-md-offset-3">
+						<a href="#"><input class="btn btn-primary btn-lg ask-btn" type="submit" value="Ответить!"></a>
+					</div>
+
 			</div>
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END_BLOCK_QUESTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
@@ -181,7 +204,7 @@
 							<span><a class="Tags" href="./tag.html">РЛ		</a></span>
 							<span><a class="Tags" href="./tag.html">Алгоритмы</a></span><br>
 							<span><a class="Tags" href="http://bootstrap-ru.com/203/base_css.php" target="_blank">Bootstrap</a></span>
-							<span><a class="Tags" href="https://vk.com/feed" target="_blank">vk</a></span> 
+							<span><a class="Tags" href="https://vk.com/feed" target="_blank">vk </a></span> 
 						</div>
 					</div>
 
@@ -206,8 +229,6 @@
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 			</div>
 		</div>
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PAGINATION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
 		<br>
 	</div>
 </body>

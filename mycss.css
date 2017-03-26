@@ -52,6 +52,14 @@ header {
 	z-index: 1;
 }
 
+#AVATAR button.reg-log {
+	opacity: 0.75;
+	position: relative;
+	margin: 10px 0px 0px 15px;
+	border-radius: 25%;
+	width: 300px;
+}
+
 #AVATAR button.n1:hover { opacity: 1.0; background-color: #037ffc; }
 #AVATAR button.n2:hover { opacity: 1.0; background-color: #037ffc; }
 #AVATAR button.n3:hover { opacity: 1.0; background-color: #037ffc; }
@@ -160,7 +168,7 @@ p.tag-tittle {
 .Tags {
 	font-size: 17pt;
 	font-weight: bold;
-	padding: 12px;
+	padding: 10px;
 
 }
 a.Tags:hover {
@@ -181,13 +189,17 @@ a.Tags:hover {
 	font-size: 12pt;
 }
 .ask-text {
-	min-height: 170px;
+	min-height: 150px;
 	max-width: 100%;
-	max-height: 400px;
+	max-height: 300px;
 }
 .ask-form {
 	margin-left: -7%;
 	font-size: 15pt;
+}
+.log-form {
+	margin-left: -6%;
+	font-size: 14pt;
 }
 .tag-search {
 	margin-left: 20px;
@@ -196,11 +208,11 @@ a.Tags:hover {
 .single-question {
 
 	font-family: cursive;
-
 	background-color: #efefff;
 }
 .box-answer {
 
+	position: relative;
 	font-family: cursive;
 	padding: 10px 20px;
 	padding-bottom: 0px;
@@ -227,7 +239,21 @@ a.Tags:hover {
 }
 .helpful-check {
 
-	margin-left: 15px;
-	font-weight: 18pt;
-	flex: 0 0 auto;
+	font-weight: normal;
+	position: absolute;
+	bottom: 15px;
+	right: 31px;
 }
+.answer-txt {
+	min-height: 100px;
+	max-width: 715px;
+	max-height: 300px;
+}
+.ask-btn {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	box-shadow: 7px 7px 3px 0px rgba(0,0,41, 0.5);
+	width: 250px;
+}
+.create_new_acc { padding: 7px 50px; }
