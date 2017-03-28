@@ -1,8 +1,3 @@
- {
-	border-style: inset;
-	border-width: 2px;
-	border-color: green;
-}
 body {
 	background-color: #efefff;
 	font-family: arial;
@@ -14,7 +9,8 @@ header {
 }
 #main {
 	max-width: 1500px;
-	margin: 0px auto;
+	margin-left: 4%;
+	margin-right: 30%;
 }
 #LOGO img {
 	margin-top: -20px;
@@ -67,17 +63,12 @@ header {
 #AVATAR button.n2 {	top: 39px; padding-left: 8px; padding-top: 6px; }
 #AVATAR button.n3 {	top: 73px; padding-left: 8px; padding-top: 6px; }
 
-#UserName {
-	padding-left: 10px;
-}
+.tags_under_single_question { float: left; }
+.tags_under_question { float: right; }
+.lead { text-align: justify; }
+#question-body h3 { margin-top: 1%; }
+#UserName { padding-left: 10px; }
 
-#first-block {
-	/*min-width: 650px;*/
-}
-
-.lead {
-	text-align: justify;
-}
 hr.mystyle {
 	width: 90%;
 	height: 5px;
@@ -114,6 +105,7 @@ a.current-question {
 	border-style: dashed;
 	border-color: darkblue;
 	box-shadow: 10px 10px #777777;
+	min-width: 500px;
 }
 
 #AskingAvatar {
@@ -130,17 +122,10 @@ a.current-question {
 	margin: 7px;
 	min-width: 150px;
 }
-#question-body h3 {
-
-	margin-top: 1%;
-}
 a.answer_under_question {
 
 	font-size: 13pt;
 	text-decoration: underline;
-}
-.tags_under_question {
-	float: right;
 }
 .tag-box {
 	position: relative;
@@ -182,7 +167,7 @@ a.Tags:hover {
 	font-size: 20pt;
 }
 .pagination {
-	margin-left: 40%;
+	margin-left: 30%;
 	margin-right: 40%;
 	min-width: 350px;
 	font-weight: bold;
@@ -190,11 +175,11 @@ a.Tags:hover {
 }
 .ask-text {
 	min-height: 150px;
+	min-width: 100%;
 	max-width: 100%;
 	max-height: 300px;
 }
 .ask-form {
-	margin-left: -7%;
 	font-size: 15pt;
 }
 .log-form {
@@ -223,10 +208,6 @@ a.Tags:hover {
 	border-color: darkblue;
 	box-shadow: 7px 7px #777777;
 }
-.tags_under_single_question {
-	float: left;
-}
-
 #AnsweringAvatar img {
 	height: 170px;
 	width: 170px;
@@ -255,13 +236,16 @@ a.Tags:hover {
 	margin-left: 10px;
 	box-shadow: 7px 7px 3px 0px rgba(0,0,41, 0.5);
 	width: 250px;
+	min-width: 250px;
 }
 .file_form {
 	padding-top: 6px;
 	margin-bottom: 20px;
+	padding-left: 10px;
  }
 .img-thumbnail {
  	margin-left: 14px;
  	margin-bottom: 15px;
  }
 .create_new_acc { padding: 7px 50px; }
+.form-group { min-width: 400px;	}
